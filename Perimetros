@@ -1,0 +1,29 @@
+(defun perimetro-cuadrado (lado)
+  (* 4 lado))
+
+(defun perimetro-rectangulo (longitud ancho)
+  (* 2 (+ longitud ancho)))
+
+(defun perimetro-triangulo (lado1 lado2 lado3)
+  (+ lado1 lado2 lado3))
+
+(defun perimetro-circulo (radio)
+  (* 2 pi radio))
+
+(defun perimetro-rombo (lado)
+  (* 4 lado))
+
+(defun perimetro-romboide (lado1 lado2)
+  (* 2 (+ lado1 lado2)))
+
+(defun perimetro-trapecio (lado1 lado2 base1 base2)
+  (+ lado1 lado2 base1 base2))
+
+(defun perimetro-pentagono-regular (lado)
+  (* 5 lado))
+
+(defun perimetro-hexagono-regular (lado)
+  (* 6 lado))
+
+(defun perimetro-octagono-regular (lado)
+  (* 8 lado))
