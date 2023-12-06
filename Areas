@@ -1,0 +1,23 @@
+(defun area-cuadrado (lado)
+  (* lado lado))
+
+(defun area-rectangulo (longitud ancho)
+  (* longitud ancho))
+
+(defun area-triangulo (base altura)
+  (/ (* base altura) 2))
+
+(defun area-circulo (radio)
+  (* pi (* radio radio)))
+
+(defun area-rombo (diagonal-mayor diagonal-menor)
+  (/ (* diagonal-mayor diagonal-menor) 2))
+
+(defun area-romboide (base altura)
+  (* base altura))
+
+(defun area-trapecio (base-mayor base-menor altura)
+  (/ (* (+ base-mayor base-menor) altura) 2))
+
+(defun area-pentagono-regular (lado)
+  (/ (* 1.0 1.0 5.0 (* lado lado)) 4))
