@@ -1,0 +1,54 @@
+Operadores Aritméticos:
+
++: Suma
+-: Resta
+*: Multiplicación
+/: División
+mod: Módulo
+rem: Resto
+Operadores de Comparación:
+
+=: Igual a
+/= o not=: No igual a
+<: Menor que
+<=: Menor o igual a
+>: Mayor que
+>=: Mayor o igual a
+Operadores Lógicos:
+
+and: Operador lógico AND
+or: Operador lógico OR
+not: Operador lógico NOT
+Funciones de Listas:
+
+car: Devuelve el primer elemento de una lista
+cdr: Devuelve la "cola" de una lista (todos los elementos excepto el primero)
+cons: Construye una lista añadiendo un elemento al frente
+list: Crea una lista de elementos dados
+length: Devuelve la longitud de una lista
+Funciones de Conversión de Tipos:
+
+float: Convierte a número en coma flotante
+integer: Convierte a número entero
+string: Convierte a cadena de caracteres
+char: Convierte a carácter
+Manipulación de Cadenas:
+
+concatenate: Concatena cadenas
+substring: Obtiene una subcadena
+Entrada/Salida:
+
+print: Imprime en la consola
+read: Lee desde la consola
+Control de Flujo:
+
+if: Estructura condicional
+cond: Estructura condicional múltiple
+case: Estructura de casos
+Definición de Funciones:
+
+defun: Define una nueva función
+Manipulación de Símbolos:
+
+symbol-name: Obtiene el nombre de un símbolo
+intern: Crea o encuentra un símbolo dado su nombre
