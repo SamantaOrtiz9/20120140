@@ -1,0 +1,6 @@
+(defun recorre (lista)
+    (format t "~A-> ~% ~A" (car lista))
+    (if lista
+        (recorre (cdr lista))
+    )
+)
